@@ -1,0 +1,9 @@
+title: Name Portfolio Portal
+email: disorderlyconstruct1@gmail.com
+description: > 
+  Portfolio hub in progress
+baseurl: "/DoNotByteMyHeadOff/"
+url: "https://disorderly-construct.github.io/DoNotByteMyHeadOff"
+theme: minima
+plugins:
+  - jekyll-feed
