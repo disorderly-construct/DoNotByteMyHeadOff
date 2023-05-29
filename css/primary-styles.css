@@ -5,4 +5,17 @@
 }
 body{
     background-image: url(../resources/pictures/BodyBackground.jpg);
+    filter: blur(3px);
+}
+.main-pic-container{
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+}
+.main-pic-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+    object-fit: cover;
+    filter: drop-shadow(0 -4mm 2mm rgb(0, 42, 119)); /*hue-rotate(1.31415926rad);*/
 }
