@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
+
 html, body{
     height: 100%;
 }
+
 body{
     /* background-image: url(../resources/pictures/BodyBackground.jpg);
     filter: blur(3px); This was the original background.*/
@@ -14,30 +16,7 @@ body{
     overflow: hidden;
     display: grid;
 }
-/* .stars{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-} */
-.stars::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 2px;
-    background-color: #fff;
-    box-shadow: 100px 200px 200px #fff, 800px 800px 800px #fff, 1500px 1500px 1500px #fff;
-    animation: twinkling 5s infinite;
-}
-@keyframes twinkling {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
+
 .main-pic-container{
     width: 30rem;
     height: 30rem;
@@ -45,12 +24,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 .main-pic-container img {
     width: 50%;
     height: 50%;
     border-radius: 8%;
     object-fit: cover;
-    filter: drop-shadow(2mm -4mm 2mm rgb(0, 42, 119)); /*hue-rotate(1.31415926rad);*/
+    filter: drop-shadow(2mm 2mm 2mm rgb(0, 42, 119));
+    /* hue-rotate(1.31415926rad); */
+}
+
+.star {
+    position: absolute;
+    width: .01rem;
+    height: .01rem;
+    border-radius: 50%;
+    background: #fff;
+    animation: twinkling 4s infinite;
+}
+
+@keyframes twinkling {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }
