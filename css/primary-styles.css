@@ -3,18 +3,29 @@
     padding: 0;
     border: 1px solid white;
 }
+html{
+    width: 100%;
+}
 body{
-    background-image: url(../resources/pictures/BodyBackground.jpg);
-    filter: blur(3px);
+    /* background-image: url(../resources/pictures/BodyBackground.jpg);
+    filter: blur(3px); This was the original background.*/
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-pic-container{
     width: 30rem;
     height: 30rem;
-    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .main-pic-container img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 8%;
     object-fit: cover;
     filter: drop-shadow(0 -4mm 2mm rgb(0, 42, 119)); /*hue-rotate(1.31415926rad);*/
