@@ -31,8 +31,7 @@ body{
     height: 50%;
     border-radius: 8%;
     object-fit: cover;
-    filter: drop-shadow(2mm 2mm 2mm rgb(0, 42, 119));
-    /* hue-rotate(1.31415926rad); */
+    filter: drop-shadow(2mm 2mm 2mm rgba(0, 42, 119, 0.514));
 }
 
 .star {
@@ -41,7 +40,7 @@ body{
     height: .01rem;
     border-radius: 50%;
     background: #fff;
-    animation: twinkling 4s infinite;
+    animation: twinkling 5s infinite;
 }
 
 @keyframes twinkling {

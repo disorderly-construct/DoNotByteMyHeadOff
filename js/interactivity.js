@@ -1,6 +1,6 @@
 const stars = document.getElementById('stars');
 
-for (var i = 0; i < 750; i++) {
+for (var i = 0; i < 3000; i++) {
     var star = document.createElement('div');
     star.className = 'star';
     star.style.top = Math.random() * window.innerHeight + 'px';
