@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid white; */
+    box-sizing: border-box;
+    border: 1px solid white;
 }
 
 html, body{
@@ -27,24 +28,10 @@ body{
 }
 
 .main-pic-container img {
+    display: none;
     width: 50%;
     height: 50%;
     border-radius: 8%;
     object-fit: cover;
     filter: drop-shadow(2mm 2mm 2mm rgba(0, 42, 119, 0.514));
-}
-
-.star {
-    position: absolute;
-    width: .01rem;
-    height: .01rem;
-    border-radius: 50%;
-    background: #fff;
-    animation: twinkling 5s infinite;
-}
-
-@keyframes twinkling {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
 }

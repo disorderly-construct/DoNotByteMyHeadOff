@@ -1,0 +1,19 @@
+Updated ideas:
+
+Three main ideas:
+1) Virtual Laboratory: Create a website that resembles a virtual laboratory. Each "station" in the lab could represent a different part of portfolio. For example, the microscope station could showcase the detailed work or skills, the lab reports station could be blog or case studies, etc.
+
+2) Pathology Slide Viewer: Design website to resemble a pathology slide viewer. Each "slide" could be a different project or skill. Users could "zoom in" to see more details.
+
+3) Case Files: Present projects or experiences as "case files". Each file could contain the "symptoms" (the problem or challenge), the "diagnosis" (solution), and the "treatment" (the results of work).
+
+Deeper explanations:
+Homepage - Virtual Laboratory: The homepage of the website could be designed to resemble a virtual laboratory. Each "station" in the lab represents a different part of portfolio. For example:
+
+    The microscope station could lead to detailed work or skills (Pathology Slide Viewer).
+    The lab reports station could be the blog or case studies (Case Files).
+    Other stations could represent different aspects of the portfolio, such as the resume, testimonials, or contact information.
+
+Skills/Projects - Pathology Slide Viewer: When a user clicks on the microscope station, they're taken to a page that resembles a pathology slide viewer. Each "slide" is a different skill or project. Users can "zoom in" on a slide to see more details about that skill or project. This could be done with a modal window or a separate page for each slide.
+
+Blog/Case Studies - Case Files: When a user clicks on the lab reports station, they're taken to the blog or case studies, presented as "case files". Each file contains the "symptoms" (problem or challenge), the "diagnosis" (solution), and the "treatment" (results of the work). This could be a great way to showcase problem-solving skills and the impact on work.
